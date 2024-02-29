@@ -5,7 +5,7 @@
 
 ### Créditos
 
-Este jogo foi desenvolvido como parte de um projeto educacional da *Digital Innovation One*.
----
-Repositório original: [aqui](https://github.com/digitalinnovationone/js-emoji-memory-game).
+  Este jogo foi desenvolvido como parte de um projeto educacional da *Digital Innovation One*.
+
+  Repositório original [aqui](https://github.com/digitalinnovationone/js-emoji-memory-game).
 
