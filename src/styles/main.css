@@ -2,8 +2,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #fc1e8a;
+  max-height: 100vh;
+  background-image: url(../images/flower-doodle.png);
+  background-size: cover;
+  background-color: #fc1e8965;
   user-select: none;
 }
 
@@ -21,12 +23,12 @@ body {
     #ec38bc 70%,
     #fdeff9 100%
   );
-  padding: 40px 60px;
+  padding: 9px 60px;
 }
 
 h2 {
   font-size: 3em;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -91,4 +93,24 @@ h2 {
 .boxOpen::after,
 .boxMatch::after {
   transform: rotateY(180deg);
+}
+
+.congrats {
+  height: 100px;
+  width: 350px;
+  background-color: #ec38bc;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding: 10px;
+  color: aliceblue;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 175px)
+}
+
+.banner {
+  visibility: hidden;
 }
